@@ -19,6 +19,9 @@ class coordinate            //坐标类
 public:
 	int x;
 	int y;
+};
+
+class fivechess 
 {
 public:
 	void initchessboard()//初始化棋盘
@@ -48,17 +51,17 @@ public:
 					if (chessboard[i][j] == 'x')
 					{
 						color(0x70);
-						cout <<setw(4) << " ●";
+						cout <<setw(4) << "●";
 					}
 					else if (chessboard[i][j] == 'o')
 					{
 						color(0x7f);
-						cout <<setw(4) << " ●";
+						cout <<setw(4) << "●";
 					}
 					else         
 					{
 						color(0x74);
-						cout <<setw(4) << " ■";
+						cout <<setw(4) << "■";
 					}
 				}             
 			}
